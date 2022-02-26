@@ -3,6 +3,61 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-    }
-}
+        System.out.println("Task number one");
+	byte b = -128;
+    short s = 129;
+    int i = 12131;
+    long l = 12131242L;
+    float f = 43.2f;
+    double d = 2332.232;
+    char c = 33; //'!'
+    boolean bo = true;
+ System.out.println( b + "\n" + s + "\n" + i + "\n" + l + "\n" + f + "\n" + d + "\n" + c + "\n" + bo);
+
+    System.out.println("\n" + "Task number too");
+      float boxer1 = 78.2f;
+      float boxer2 = 82.7f;
+      float sumWeight, differenceWeight;
+      sumWeight = boxer1 + boxer2;
+      differenceWeight = boxer2 - boxer1;
+      System.out.println("Total weight of boxers: " + sumWeight);
+      System.out.println("Boxer difference weight: " + differenceWeight);
+
+      System.out.println("\n" + "Task number three");
+      float bananas = (5 * 80);
+      float milk = (2 * 105);
+      float iceCream = (2 * 100);
+      float eggs = (4 * 70);
+      float result = ((bananas + milk + iceCream + eggs) / 1000);
+      System.out.println("dish weight: " + result + "kg");
+
+        System.out.println("\n" + "Task number four");
+        float resultOne = (7000 / 250);
+        float resultToo = (7000 / 500);
+        System.out.println("Option one (250 gram/day): " + resultOne);
+        System.out.println("Option too (500 gram/day): " + resultToo);
+
+        System.out.println("\n" + "Task number five");
+        int Masha, Denis, Kristina;
+        Masha = 67760;
+        Denis = 83690;
+        Kristina = 76230;
+        int salaryM, salaryD, salaryK;
+        salaryM = (Masha * 110/100);
+        salaryD = (Denis * 110/100);
+        salaryK = (Kristina * 110/100);
+        int yearM, yearD, yearK, yearNewM, yearNewD, yearNewK;
+        yearM = (Masha * 12);
+        yearD = (Denis * 12);
+        yearK = (Kristina * 12);
+        yearNewM = (salaryM * 12);
+        yearNewD = (salaryD * 12);
+        yearNewK = (salaryK * 12);
+        System.out.println("Masha now gets: " + salaryM + "rub. " + "Annual income increased: " + (yearNewM- yearM));
+        System.out.println("Denis now gets: " + salaryD + "rub. " + "Annual income increased: " + (yearNewD- yearD));
+        System.out.println("Kristina now gets: " + salaryK + "rub. " + "Annual income increased: " + (yearNewK- yearK));
+
+
+
+  }
+  }
