@@ -38,26 +38,24 @@ public class Main {
         System.out.println("Option too (500 gram/day): " + resultToo);
 
         System.out.println("\n" + "Task number five");
-        int Masha, Denis, Kristina;
-        Masha = 67760;
-        Denis = 83690;
-        Kristina = 76230;
+        int masha, denis, kristina;
+        masha = 67760;
+        denis = 83690;
+        kristina = 76230;
         int salaryM, salaryD, salaryK;
-        salaryM = (Masha * 110/100);
-        salaryD = (Denis * 110/100);
-        salaryK = (Kristina * 110/100);
+        salaryM = (masha * 110/100);
+        salaryD = (denis * 110/100);
+        salaryK = (kristina * 110/100);
         int yearM, yearD, yearK, yearNewM, yearNewD, yearNewK;
-        yearM = (Masha * 12);
-        yearD = (Denis * 12);
-        yearK = (Kristina * 12);
+        yearM = (masha * 12);
+        yearD = (denis * 12);
+        yearK = (kristina * 12);
         yearNewM = (salaryM * 12);
         yearNewD = (salaryD * 12);
         yearNewK = (salaryK * 12);
         System.out.println("Masha now gets: " + salaryM + "rub. " + "Annual income increased: " + (yearNewM- yearM));
         System.out.println("Denis now gets: " + salaryD + "rub. " + "Annual income increased: " + (yearNewD- yearD));
         System.out.println("Kristina now gets: " + salaryK + "rub. " + "Annual income increased: " + (yearNewK- yearK));
-
-
 
   }
   }
