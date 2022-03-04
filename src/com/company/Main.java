@@ -32,8 +32,8 @@ public class Main {
       System.out.println("dish weight: " + result + "kg");
 
         System.out.println("\n" + "Task number four");
-        float resultOne = (7000 / 250);
-        float resultToo = (7000 / 500);
+        float resultOne = (7000f / 250f);
+        float resultToo = (7000f / 500f);
         System.out.println("Option one (250 gram/day): " + resultOne);
         System.out.println("Option too (500 gram/day): " + resultToo);
         System.out.println("Needed of average: " + ((resultToo + resultOne)/2));
