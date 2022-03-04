@@ -36,17 +36,18 @@ public class Main {
         float resultToo = (7000 / 500);
         System.out.println("Option one (250 gram/day): " + resultOne);
         System.out.println("Option too (500 gram/day): " + resultToo);
+        System.out.println("Needed of average: " + ((resultToo + resultOne)/2));
 
         System.out.println("\n" + "Task number five");
-        int masha, denis, kristina;
+        float masha, denis, kristina;
         masha = 67760;
         denis = 83690;
         kristina = 76230;
-        int salaryM, salaryD, salaryK;
-        salaryM = (masha * 110/100);
-        salaryD = (denis * 110/100);
-        salaryK = (kristina * 110/100);
-        int yearM, yearD, yearK, yearNewM, yearNewD, yearNewK;
+        float salaryM, salaryD, salaryK;
+        salaryM = (masha * 1.1f);
+        salaryD = (denis * 1.1f);
+        salaryK = (kristina * 1.1f);
+        float yearM, yearD, yearK, yearNewM, yearNewD, yearNewK;
         yearM = (masha * 12);
         yearD = (denis * 12);
         yearK = (kristina * 12);
