@@ -58,5 +58,29 @@ public class Main {
         System.out.println("Denis now gets: " + salaryD + "rub. " + "Annual income increased: " + (yearNewD- yearD));
         System.out.println("Kristina now gets: " + salaryK + "rub. " + "Annual income increased: " + (yearNewK- yearK));
 
+        System.out.println("\n" + "Task number six");
+        int a1 = 12;
+        int b1 = 27;
+        int c1 = 44;
+        int d1 =15;
+        int e1 = 9;
+        int result1 = (a1 * (b1 + (c1 - (d1 * e1))));
+        System.out.println(result1 * (-1));
+
+        System.out.println("\n" + "Task number seven");
+       int x = 5;
+       int z = 7;
+       x = (x + z);
+       z = (x-z);
+       x = (x -z);
+        System.out.println(x);
+        System.out.println(z);
+
+        System.out.println("\n" + "Task number eight");
+        int aa = 293;
+        int bb = (aa % 100);
+        int zz = (bb % 10);
+        int aaa = ((bb -zz) / 10);
+        System.out.println(aaa);
   }
   }
